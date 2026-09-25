@@ -1,0 +1,42 @@
+[
+  {
+    "threshold": 0.01,
+    "median_seconds": 1.2628150839882437,
+    "min_seconds": 1.2148464579950087,
+    "max_seconds": 1.680912084004376,
+    "itemsets": 261,
+    "max_length": 3
+  },
+  {
+    "threshold": 0.03,
+    "median_seconds": 0.20193487500364427,
+    "min_seconds": 0.2011180839908775,
+    "max_seconds": 0.21032349999586586,
+    "itemsets": 55,
+    "max_length": 2
+  },
+  {
+    "threshold": 0.05,
+    "median_seconds": 0.11999929101148155,
+    "min_seconds": 0.09617116599110886,
+    "max_seconds": 0.13049491700076032,
+    "itemsets": 28,
+    "max_length": 2
+  },
+  {
+    "threshold": 0.1,
+    "median_seconds": 0.013017834004131146,
+    "min_seconds": 0.01276099999086,
+    "max_seconds": 0.01328062500397209,
+    "itemsets": 7,
+    "max_length": 1
+  },
+  {
+    "threshold": 0.15,
+    "median_seconds": 0.008738290998735465,
+    "min_seconds": 0.00867004100291524,
+    "max_seconds": 0.009053125002537854,
+    "itemsets": 5,
+    "max_length": 1
+  }
+]
