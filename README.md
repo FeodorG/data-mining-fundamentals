@@ -32,10 +32,29 @@ a confidence of approximately 50.7%; thresholds of 70–95% produce no rules.
 
 Project folder: [`lab2`](lab2/)
 
+### Lab 3 — Decision Tree Classification
+
+Implementation of a decision tree classifier for the UCI Adult (Census Income)
+dataset. The project includes:
+
+- support for Information Gain, Gain Ratio, and Gini Index split criteria;
+- classification of annual income into `<=50K` and `>50K` classes;
+- configurable training-set proportion and tree depth;
+- accuracy, precision, recall, and F1 evaluation;
+- experiments with training/test splits from 60:40 to 90:10;
+- decision-tree and classification-quality visualizations;
+- CSV and JSON exports together with a PDF report.
+
+On the official Adult split, Information Gain achieved the best F1 score of
+approximately 0.630 and an accuracy of approximately 0.851.
+
+Project folder: [`lab3`](lab3/)
+
 ## Environment
 
 - Python 3.10 or newer
 - dependencies are listed in each lab's `requirements.txt`
+- Graphviz is required to render the decision trees in Lab 3
 
-See [`lab1/README.md`](lab1/README.md) and [`lab2/README.md`](lab2/README.md) for
-commands and project structure.
+See [`lab1/README.md`](lab1/README.md), [`lab2/README.md`](lab2/README.md), and
+[`lab3/README.md`](lab3/README.md) for commands and project structure.
